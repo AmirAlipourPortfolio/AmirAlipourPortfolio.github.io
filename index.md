@@ -1,56 +1,57 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
         <h1>Personal Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="#biography">Biography</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#teaching">Teaching</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="#misc">MISC</a></li>
+                <li><a href="#" data-section="biography">Biography</a></li>
+                <li><a href="#" data-section="research">Research</a></li>
+                <li><a href="#" data-section="teaching">Teaching</a></li>
+                <li><a href="#" data-section="events">Events</a></li>
+                <li><a href="#" data-section="misc">MISC</a></li>
             </ul>
         </nav>
     </header>
     
-    <main>
-        <section id="biography">
+    <main id="content">
+        <section id="biography" class="content-section">
             <h2>Biography</h2>
-            <p>Biography will be written here.</p>
+            <p>Write your biography here.</p>
         </section>
         
-        <section id="research">
+        <section id="research" class="content-section">
             <h2>Research</h2>
-            <p>My past, present, and future research work will be demonstrated here.</p>
+            <p>Describe your research here.</p>
         </section>
         
-        <section id="teaching">
+        <section id="teaching" class="content-section">
             <h2>Teaching</h2>
-            <p>Detailing teaching experiences here.</p>
+            <p>Detail your teaching experiences here.</p>
         </section>
         
-        <section id="events">
+        <section id="events" class="content-section">
             <h2>Events</h2>
-            <p>List of upcoming and past events here.</p>
+            <p>List your upcoming and past events here.</p>
         </section>
         
-        <section id="misc">
+        <section id="misc" class="content-section">
             <h2>MISC</h2>
-            <p>Any other relevant information (Video game industry. Fundamentals of figure drawing, sports, etc).</p>
+            <p>Include any other relevant information here.</p>
         </section>
     </main>
     
     <footer>
         <section id="contact">
             <h2>Contact</h2>
-            <form action="" method="POST">
+            <form action="https://formspree.io/your-email" method="POST">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
                 
@@ -71,7 +72,7 @@
             <a href="https://github.com/yourprofile">GitHub</a>
         </section>
         
-        <p>&copy; 2024 Amir Ali-Pour. All rights reserved.</p>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
     </footer>
 </body>
 </html>
